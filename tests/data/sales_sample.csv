@@ -1,0 +1,9 @@
+user_id,tx_id,item_name,item_count,timestamp
+1,1,eggs, 4, 1657528153
+1,1,cheese, 4, 1657528153
+1,1,milk, 1, 1657528154
+2,2,bread, 6, 165752346
+3,3,honey, 1, 1657520303
+3,3,juice, 2, 1657520603
+1,4,bread, 1, 1657584323
+4,5,chicken, 1, 1657595754
