@@ -2,9 +2,12 @@ from etl.spark_etl import *
 
 
 def main():
-    path = "/location/to/file"
     spark = create_spark_session("myApp")
-    sales_df = read_data(path, "csv", spark)
+    
+    path = "/location/to/file"
+    options = {"header": True}
+    sales_df = read_data(path, "csv", options, spark)
+    
     items_count_df = get_items_count(sales_df)
 
 
